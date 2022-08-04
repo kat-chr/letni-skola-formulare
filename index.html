@@ -11,7 +11,75 @@
 
 		<h1>Formuláře</h1>
 
+		<form id="formular">
+			<div class="form-field">
+				<label for="jmeno">Jmeno</label>
+				<input type="text" placeholder="Zadej jmeno" id="jmeno"  maxlength="20">
+			</div>
+			
+			<div class="form-field">
+				<label for="prijmeni">Prijmeni</label>
+				<input type="text" placeholder="Zadej prijmeni" id="prijmeni">
+				<!--
+					<label>
+						Prijmeni
+						<input type="text" placeholder="Zadej prijmeni">
+					</label>
+				-->
+			</div>
 
+			<div class="form-field">
+				<label for="vek">Vek</label>
+				<input type="number" placeholder="vek" id="vek" max="3">
+			</div>
+
+			<div class="form-field">
+				<label for="email">Email</label>
+				<input type="email" id="email" max="3">
+			</div>
+
+			<div class="form-field">
+				<label for="datum">Datum</label>
+				<input type="date" id="datum">
+			</div>
+
+			<div class="form-field">
+				<label for="barva">Barva vlasu</label>
+				<input type="color" id="barva">
+			</div>
+
+			<div class="form-field">
+				<label for="adresa">Adresa</label>
+				<textarea id="adresa" cols="25" rows="4">
+
+				</textarea>
+			</div>
+
+			<div class="form-field">
+				<label for="mesto">Mesto</label>
+				<select id="mesto">
+					<option></option>
+					<option>Praha</option>
+					<option>Brno</option>
+					<option>Liberec</option>
+					<option>Ostrava</option>
+					<option selected>Ceske Budejovice</option>
+					<option>Most</option>
+				</select>
+			</div>
+
+			<div class="form-check-field">
+				<input type="checkbox" id="souhlas">
+				<label for="souhlas">souhlasim ze blabla</label>
+			</div>
+
+			<button>OK</button>
+
+			
+
+
+
+		</form>
 
 		<script src="main.js"></script>
 </body>

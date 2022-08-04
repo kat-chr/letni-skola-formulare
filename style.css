@@ -5,3 +5,45 @@ body {
 	font: 18px sans-serif;
 }
 
+.form-field, 
+.form-check-field {
+	margin-bottom: 20px;
+}
+
+.form-field label {
+	display: block;
+	color: gray;
+	font-size: 70%;
+}
+
+.form-check-field label {
+	color: gray;
+	font-size: 70%;
+}
+
+.form-field input,
+.form-field textarea,
+.form-field select {
+	border: solid 2px dodgerblue;
+	padding: 6px;
+	border-radius: 4px;
+	color: black;
+}
+
+.form-field input:focus {
+	outline: none;
+	border: solid 2px rgb(209, 69, 18);
+	background-color: rgb(228, 225, 139);
+}
+
+button {
+	font-size: 24px;
+	padding: 10px 20px;
+	background-image: linear-gradient(red, orange);
+	color: aliceblue;
+	border-radius: 4px;
+}
+
+button:hover {
+	background-image: linear-gradient(rgb(149, 0, 0), rgb(193, 115, 6));
+}
